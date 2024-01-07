@@ -1,0 +1,761 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: sans-serif,"poppins";
+  background-image: white;
+  width: 100%;
+  height: 100%;
+}
+
+/*nav styles here*/
+ul, li{
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+
+li, a{
+  margin-left: 0.2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.logo{
+  height: 30px;
+  width: 30px;
+  background-color: none;
+  border-radius: 10px;
+  border: 3px solid #0e95fd;
+  margin-left: 25rem;
+  margin-top: 0.5rem;
+}
+
+
+.middle-section{
+  display: flex;
+}
+
+.login{
+  height: 35px;
+  width: 100px;
+  margin-left: 26rem;
+  margin-top: 0.4rem;
+  border-radius: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.login:hover{
+  background-color: grey;
+  transition: 0.3s ease;
+}
+
+/*the top-nav styles ends in this section*/
+
+.catch{
+  color: #d2d7db;
+  margin-top: 3rem;
+  margin-left: 6rem;
+  font-size: 65px;
+}
+
+.to-do{
+  font-size: 65px;
+  margin-left: 6rem;
+}
+
+.slogan{
+  margin-left: 6rem;
+  margin-top: 1rem;
+  font-size: 20px;
+}
+
+.first-buttons{
+  display: flex;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+
+.watch-video{
+  height: 50px;
+  width: 150px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.watch-video:hover{
+   background-color: grey;
+   transition: 0.3s ease;
+}
+
+.try{
+  height: 50px;
+  width: 150px;
+  margin-left: 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #0d95fd;
+  color: #FFF;
+}
+
+.try:hover{
+  background-color: blue;
+  transition: 0.3s ease;
+
+}
+
+/*hero section styles end in this section*/
+
+.video-holder{
+  height: 450px;
+  width: 1000px;
+  background:#ebecf0;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px 3px rgba(0,0,0,0.1);
+  
+}
+
+#myVideo{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 1000px;
+  max-height: 400px;
+}
+
+.video2{
+  height: 450px;
+  width: 990px;
+  background:#ebecf0;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  border-radius: 10px;
+}
+
+.left-content{
+  height: 400px;
+  width: 50%;
+  background-color: none;
+}
+
+
+
+h3{
+  font-size: 25px;
+  padding-top: 3rem;
+  margin-left: 2rem;
+}
+
+.how_itworks{
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.video2{
+  display: flex;
+
+}
+
+.video-play{
+  height: 400px;
+  width: 50%;
+  background: inherit;
+  margin-left: 2rem;
+}
+
+#myVideo2{
+position: relative;
+width: 360px;
+height: 500px;
+
+}
+
+/*third section styles here*/
+
+.container3{
+  height: 450px;
+  width: 1000px;
+  background:none;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  
+  display: flex;
+}
+
+.container3-1{
+  height: 400px;
+  width: 50%;
+  background: #ebecf0;;
+  border-radius: 20px;
+}
+
+.container3-2{
+  height: 400px;
+  width: 50%;
+  background: #ebecf0;
+  border-radius: 20px;
+  margin-left: 2rem;
+}
+
+h12{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  font-weight: bold;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.customizations{
+  margin-left: 2rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+#bottom-video{
+  width: 353px;
+  margin-top: 1rem;
+  height: 300px;
+  position: relative;
+}
+
+#top-video{
+  position: relative;
+  width: 350px;
+  height:210px;
+  background: inherit;
+  border: none;
+  border-radius: 20px;
+}
+
+h22{
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.satisfaction{
+  font-size: 15px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+
+/*bottom email input content styles are below*/
+
+#email{
+  margin-top: 4rem;
+  margin-left: 6rem;
+  border: none;
+  font-size: 30px;
+  opacity: 0.7;
+  color: black;
+}
+
+.news-letter{
+  margin-left: 22rem;
+  height: 40px;
+  width: 170px;
+  border-radius: 20px;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.news-letter:hover{
+  color: black;
+  background-color: grey;
+  transition: 0.3s ease;
+}
+
+.join{
+  display: block;
+}
+
+.border{
+  height: 1px;
+  width: 1000px;
+  background-color: black;
+  display: flex;
+  margin-top: 8rem;
+  opacity: 0.1;
+  margin-left: 4rem;
+}
+
+/*All footer styles are in the below section*/
+
+.communication{
+  position: fixed;
+}
+
+h15{
+  margin-left: 6rem;
+  opacity: 0.7;
+  margin-top: 3rem;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.terms{
+  margin-left: 6rem;
+  opacity: 0.7;
+  font-size: 12px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.twitter{
+  display: flex;
+}
+
+.twitter-holder{
+  height: 40px;
+  width: 40px;
+  background-color: #ebecf0;
+  border-radius: 10px;
+  margin-left: 55rem;
+  margin-bottom: 2rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.twitter-holder:hover{
+  background-color: grey;
+}
+
+h16{
+  margin: auto;
+}
+
+.c-circle{
+  font-size: 12px;
+  margin-top: 0.1rem;
+  font-weight: bold;
+  width: 18px;
+}
+
+/*all the about styles are here*/
+.the-catch{
+  margin-left: 3rem;
+}
+
+h27{
+  margin-left: 3rem;
+  font-weight: bold;
+  font-size: 70px;
+  padding-top: 3rem;
+  display: block;
+}
+.building{
+  margin-left: 3rem;
+  background: linear-gradient(to right,#d2d7db, #d0d6dc,#9fb8dc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.list{
+  margin-left: 3rem;
+
+}
+
+.enjoy{
+  margin-left: 3rem;
+}
+
+.mission{
+  margin-left: 6rem;
+  font-size: 25px;
+  font-weight: 550;
+  margin-top: 1rem;
+}
+
+.bring{
+  color: #babdc8;
+}
+
+/*all about hero section styles end here*/
+#team-holder{
+  height: 450px;
+  width: 1200px;
+  background-color: #eff2f5;
+  margin-left: 6rem;
+  border-radius: 20px;
+  margin-top: 5rem;
+  display: flex;
+}
+
+h28{
+  font-size: 22px;
+  padding-top: 4rem;
+  display: flex;
+  margin-left: 3rem;
+  font-weight: 600;
+}
+
+/*all creators styles are in the below section*/
+
+.creator1{
+  display: block;
+}
+
+.picture-holder1{
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  border-radius: 20px;
+  background-image: url("https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h29{
+  margin-left: 3rem;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.proffesion1{
+   margin-left: 3rem;
+   margin-top: 0.5rem;
+   color: #8b8fa1;
+   font-size: 13px;
+}
+
+.social-media1{
+  display: flex;
+}
+
+.twitter1{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 3rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+.internet1{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 1rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+h30{
+  margin: auto;
+  font-size: 20px;
+}
+
+h31{
+  margin: auto;
+  font-size: 20px;
+}
+
+/*developer 1 styles ends in this section*/
+
+.picture-holder2{
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  margin-left: 5rem;
+  border-radius: 20px;
+  background-image: url("https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  margin-top: 8rem;
+
+}
+
+h33{
+  margin-left: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.profession2{
+  margin-left: 5rem;
+  color: #8b8fa1;
+  margin-top: 0.5rem;
+  font-size: 13px;
+}
+
+.social-media2{
+  display: flex;
+}
+
+.twitter2{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 5rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+.internet2{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 1rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+h34{
+  margin: auto;
+  font-size: 20px;
+}
+
+
+h35{
+  margin: auto;
+  font-size: 20px;
+}
+
+.instagram{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 1rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+h36{
+  margin: auto;
+  font-size: 20px;
+}
+
+/*deveeloper 2 styles ends in the above section*/
+
+.creator3{
+  display: block;
+}
+
+.picture-holder3{
+  height: 120px;
+  width: 120px;
+  background-color: black;
+  margin-left: 5rem;
+  border-radius: 20px;
+  margin-top: 8rem;
+  background-image: url("https://plus.unsplash.com/premium_photo-1678197937465-bdbc4ed95815?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h37{
+  margin-left: 5rem;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.profession3{
+  margin-left: 5rem;
+  color: #8b8fa1;
+  margin-top: 0.5rem;
+  font-size: 13px;
+}
+
+.twitter3{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 5rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+h38{
+  margin: auto;
+  font-size: 20px;
+}
+
+.attachment{
+  height: 50px;
+  width: 50px;
+  background-color: #e0e3e7;
+  margin-left: 1rem;
+  display: flex;
+  border-radius: 15px;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+
+.social-media3{
+  display: flex;
+}
+
+/*the responsiveness of the project is in the below section*/
+
+@media (max-width: 640px){
+
+ .about{
+   margin-left: 0;
+ }
+ .logo{
+   margin-left: 5rem;
+ }
+
+ .login{
+   margin-left: 5rem;
+ }
+
+ /*hero section button styles here*/
+.first-buttons{
+  display: block;
+}
+
+.try{
+  margin-left: 0;
+  margin-top: 0.5rem;
+}
+
+#myVideo{
+  width: 300px;
+  height: 300px;
+}
+.video-holder{
+  width:  350px;
+}
+
+.video2{
+  display: block;
+  width: 350px;
+  height: 600px;
+}
+
+#myVideo2{
+  margin-top: 0;
+  height: 200px;
+  margin-left: 0;
+  width: 250px;
+}
+
+.how_itworks{
+  font-size: 16px;
+}
+
+.video-play{
+  height: 0;
+  margin-top: 0;
+}
+
+/*third section styles here*/
+.container3{
+  display: block;
+}
+
+.container3-1{
+  width: 350px;
+}
+
+.container3-2{
+  width: 350px;
+  margin-left: 0;
+  margin-top: 1rem;
+}
+
+h12{
+  padding-top: 1rem;
+}
+/*all footer section styles are belo this content*/
+ .border{
+   width: 550px;
+   margin-top: 4rem;
+ }
+
+ #email{
+   margin-top: 25rem;
+ }
+
+ .twitter-holder{
+   margin-left: 9rem;
+}
+
+}
+
+/*the about section responsiveness is nested in the below section*/
+
+@media (max-width:640px){
+
+  /*hero section styles here*/
+  .building{
+    font-size: 50px;
+  }
+
+  .list{
+    font-size: 50px;
+  }
+
+  .enjoy{
+    font-size: 50px;
+  }
+
+  .mission{
+    font-size: 16px;
+  }
+
+  /*team holder styles in the below section*/
+  
+  #team-holder{
+    width: 350px;
+    height: 1300px;
+    display: block;
+  }
+
+  .creator1{
+    margin-left: 1rem;
+  }
+
+  .creator3{
+    margin-left: 0;
+  }
+}
+
+
+
